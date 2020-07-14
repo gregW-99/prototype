@@ -1,0 +1,585 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* ALL CSS FOR INDEX.HTML STARTS HERE ON THIS QUERY */
+
+/* Sets up fonts and background colour */
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #f2f2f2;
+}
+
+/* Makes it so the items will fit nicely in the div */
+.wrapper{
+    margin: auto;
+    width: 90%;
+}
+
+/* Adds a navigation bar */
+.responsive-nav{
+    background-color: #3c3b3a;
+    margin: auto;
+}
+
+
+/* Aligns the nav links */
+ul{
+    margin: 0 auto;
+    text-align: center;
+    list-style-type: none;
+    background-color: #3c3b3a;
+}
+
+/* Changes the link colour to white and takes out the decoration */
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    line-height: 2.0;
+}
+
+h1{
+    font-size: 60px;
+}
+
+/* Makes the default font options  */
+p {
+    font-size: 20px;
+    margin: 0 0 1rem 0;
+    line-height: 2.1875rem;
+}
+
+
+
+/* Makes the grids display like a square */
+.icons{
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin-left: 100px;
+}
+
+
+/* Adds the next image below */
+.discover{
+    background-image: url(../images/discover.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 300px;
+    height: 250px;
+    margin: auto;
+
+}
+
+/* Makes the image responsively resize */
+.school{
+    background-image: url(../images/school.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+
+/* Changes the button style like in the example */
+button{
+  background-color: #26a682;
+  border-style: none;
+  border-radius: 25px;
+  box-shadow: 10px 5px 5px #3c3b3a;
+  color: #f2f2f2;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: bold;
+  width: 300px;
+  margin: auto;
+}
+
+
+/* Changes h2 font properties */
+h2{
+    font-style: italic;
+    font-weight: 400;
+}
+
+/* Any text with this class will be turned to green */
+.algonquin{
+    color: #26a682;
+    font-size: 1.3rem;
+}
+
+/* gets the button properties and floats the button to the right */
+.learn-more-one{
+    float: right;
+    padding: 3px 8px;
+    width: 300px;
+}
+
+/* Adds a black box */
+.black-box{
+    background-color: #3c3b3a;
+    width: 500px;
+    height: 700px;
+    margin-right: 100px;
+}
+
+/* Gets the image of the lady and makes it like the example */
+.black-woman{
+    width: 200px;
+    height: 200px;
+    margin-left: 150px;
+    border-radius: 50%;
+    border: 5px solid #f2f2f2;
+    margin-top: 50px;
+
+}
+
+/* Change the heading properties in the box */
+.box-headings{
+    color: #f2f2f2;
+    margin-left: 4px;
+    text-align: center;
+}
+
+/* Change the paragraph properties in the box */
+.box-paragraph{
+    color: #f2f2f2;
+}
+
+/* Adds the picture of two people getting ready to drink beer */
+.bar-pic{
+    background-image: url(../images/entertainment.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+}
+
+/* These footer property is used on all pages */
+footer{
+    background-color: #3c3b3a;
+    padding: 20px;
+}
+
+.footer-text{
+    color: #f2f2f2;
+    font-style: normal;
+    margin-left: 150px;
+}
+
+.footer-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.arrow{
+    margin-left: 375px;
+}
+
+/* CSS FOR ABOUT.HTML STARTS ON THIS QUERY */
+
+/* Adds the construction image and its properties */
+.construction-image{
+    background-image: url(../images/construction.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 500px;
+    height: 250px;
+
+}
+
+/* Adds the ac building image and its properties*/
+.ac-building{
+    background-image: url(../images/about.jpg);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 500px;
+    height: 250px;
+    color: white;
+    text-align: center; 
+    
+}
+
+/* Adds the services image and its properties*/
+.services{
+    background-image: url(../images/services.jpg);
+    width: 500px;
+    height: 250px;
+    background-size: cover;
+    background-position: 50% 50%;
+    font-weight: bold;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+
+
+
+/* Changes h1 font size on the about page*/
+.about-h1{
+font-size: 40px;   
+}
+
+/* Adds the about box and its properties */
+.about-box{
+    background-color: #3c3b3a;
+    width: 500px;
+    height: 200px;
+}
+
+.about-box p {
+    margin-left: 75px;
+    
+}
+
+.about-box button{
+    margin-left: 100px;
+}
+
+.about-sponsors{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+/* CSS FOR CONTACT.HTML STARTS ON THIS QUERY */
+
+/* Gives the map some dimensions */
+iframe{
+    width: 500px;
+    height:400px;
+}
+
+/* Adds the form attributes like in the example */
+form{
+    border-radius: 15px;
+    background-color:#26a682;
+    margin-bottom: 50px;
+    border: none;
+    filter: drop-shadow(5px 5px 5px black);
+    color: #f2f2f2;
+    width: 400px;
+    height: 600px;
+    margin-left: 30px;
+}
+
+/* Makes the text radius like the outline */
+input[type="text"]{
+    border-radius: 10px;
+    background-color: #F4F4F4;
+    width: 50%;
+    padding: 10px;
+    border: none;
+}
+
+/* Changes the way the submit button looks */
+input[type="submit"]{
+    width: 95%;
+    text-align: center;
+    background-color: #3c3b3a;
+    border-radius: 40px;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 30px;
+    border: none;
+    color: #f2f2f2;
+    box-shadow: 5px 3px 3px #3c3b3a;
+    
+    
+}
+
+/* Makes the textarea look more rounded */
+textarea{
+    border-radius: 10px;
+    background-color: #F4F4F4;
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+    border: none;
+}
+
+
+/* Takes out the default border around the fieldset */
+fieldset{
+    border: none;
+}
+
+
+
+@media (min-width: 35rem){
+
+    /* Shrinks the browser wrapper */
+    .wrapper{
+        width: 80%;
+    }
+
+    /* Changes the p size attributes  */
+    p {
+        font-size: 24px;
+        margin: 0 0 1rem 0;
+        line-height: 2.5rem;
+    }
+    
+    /* Changes the way the nav will look */
+    .responsive-nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0 auto;
+        align-items: baseline;
+        align-self: baseline;
+    }
+
+    .align-nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Makes the icnos go on a row */
+    .icons{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     margin-left: 50px;
+    }
+
+    /* changes black box dimensions */
+    .black-box{
+        width: 100%;
+        height: auto;
+    }
+
+   
+    /* Makes the paragraph like the example */
+    .box-paragraph{
+        margin: 50px;
+        line-height: 20px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    /* Makes the headings like the example */
+    .box-headings{
+        margin-left: 120px; 
+        line-height: 10px;
+    }
+
+    /* Makes the picture on the top */
+    .person-info{
+        display: flex;
+        flex-direction: column
+    }
+
+   /* ABOUR.HTML CODE GOES HERE ON THIS QUERY*/
+
+   /* Makes the ac building picture resize */
+   .ac-building{
+       width: 100%;
+       height: 200px;
+   }
+
+   /* Makes the services picture resize */
+   .services{
+       width: 100%;
+       height: 200px;
+   }
+
+   /* Adjusts the about box and responsively resizes it */
+   .about-box{
+       display: flex;
+       flex-direction: row;
+       width: 100%;
+       height: 200px;
+       margin: auto;
+   }
+
+
+
+
+
+@media (min-width: 70rem){
+    /* CSS FOR INDEX.HTML */
+    
+    /* Changes the width of the text */
+    .desktop-index-one{
+        width: 50%;
+
+    }
+
+    /* Adjusts the icons so they sit on the left of the page */
+   .icons{
+       margin-left: -100px;
+   }
+
+   /* Adjusts this image so it goes on the right of the page */
+   .discover{
+        margin-right: -100px;
+        margin-top: -200px;
+      
+   }
+
+   /* Takes away the school image */
+   .school{
+       display: none;
+   }
+
+   /* Replaces it with this one so it sits next to the text */
+   .school-desktop{
+    background-image: url(../images/school.jpg);
+    width:  2000px;
+    height: 250px;
+    background-size: cover;
+    margin-right: 50px;
+    margin-left: 50px;
+ }
+
+    /* Makes the text go in a row */
+   .article-index{
+       display: flex;
+   }
+
+   /* Makes the text go in a column */
+   .article-text{
+       display: flex;
+       flex-direction: column
+   }
+
+   /* Takes away the bar pic */
+   .bar-pic{
+       display: none;
+   }
+
+   /* Replaces it with the same picture but makes it sit next to the text */
+   .article-pic{
+    background-image: url(../images/entertainment.jpg);
+    width:  2000px;
+    height: 250px;
+    background-size: cover;
+    margin-right: 50px;
+    margin-left: 50px;
+   }
+
+
+     /* CSS FOR ABOUT.HTML */
+
+     /* The sponsors will be laid out horizontally */
+    .about-sponsors{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /* Changes the header to go by row */
+    .desktop-about-header{
+        display: flex;
+    }
+
+    /* Makes the text go into a column */
+    .desktop-header-text{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+    }
+
+    /* Makes this image go on the right of the header */
+    .construction-image{
+        height: 500px;
+        width: 75%;
+    }
+
+    /* Makes it so the paragraph is shifted to the right */
+    .about-paragraphs{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    /* Makes the h2 go into a row */
+    .about-h2{
+        flex-direction: row;
+    }
+
+    /* Adds a picture of a bar next to the first section */
+    .pub-pic{
+    background-image: url(../images/bar.jpg);
+    width:  2000px;
+    height: 250px;
+    background-size: cover;
+    background-position: 50% 50%;
+    
+    }
+
+    /* Adds a picture of bowling shoes to the second section */
+    .bowling-shoes{
+        background-image: url(../images/bowling.jpg);
+        width: 400px;
+        height: 250px;
+        background-size: cover;
+        background-position: 50% 50%;
+        margin-left: 700px;
+        margin-top: -200px;
+        
+        }
+        /* Changes the width of the text */
+        .article-text-about{
+            width: 66%;
+        }
+
+        .article-two{
+           display: flex;
+           flex-direction: row;
+        }
+
+
+        /* Adds a picture of a man lifting weights */
+        .weights{
+            background-image: url(../images/fitness.jpg);
+             width: 450px;
+             height: 250px;
+            background-size: cover;
+             background-position: 50% 50%;
+        }
+        
+        /* Adds a rock climbing picture */
+        .rock-climbing-pic{
+            background-image: url(../images/climbing.jpg);
+            width: 400px;
+            height: 250px;
+            background-size: cover;
+            background-position: 50% 50%;
+            margin-left: 700px;
+            margin-top: -200px;
+        }
+
+
+    
+
+
+    /* CSS FOR CONTACT.HTML */
+
+
+    /* Makes sure the content is aligned properly */
+    .desktop-contact-one{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 50%;
+    }
+
+    /* Chanes where the form will go, horizontally from the picture */
+    form{
+        margin-left: auto;
+        margin-top: -750px;
+    }
+
+    /* Changes where the map will go, horizontally from the hours of operation */
+    iframe{
+        margin-left: 700px;
+        margin-top: -400px;
+    }
+
+}
+
+}
